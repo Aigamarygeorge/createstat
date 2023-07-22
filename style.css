@@ -12,7 +12,7 @@ body{
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
-img{
+.img{
     position: relative;
     margin-top: 150px;
     margin-bottom: -65px;
