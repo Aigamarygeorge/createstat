@@ -1,23 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
+body {
+	background: linear-gradient(-45deg, #857391, #574c52, #30474f, #c25b88);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
 
-body{
-    background: rgb(133,120,215);
-    background: linear-gradient(0deg, rgba(133,120,215,1) 0%, rgba(65,73,56,1) 36%, rgba(0,0,0,1) 100%);;
-    background-size: cover;
-    height: auto;
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-.img{
-    position: relative;
-    margin-top: 150px;
-    margin-bottom: -65px;
-    border-radius: 50%;
-    width: 130px;
-    height: 130px;
-    
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
